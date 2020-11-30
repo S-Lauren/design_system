@@ -7,6 +7,20 @@
   --primary-70: #ff6347; 
   --primary-80: #f9eec0; 
   --primary-90: #2d3e52; 
+  --primary-100: #13142c;
+
+  /* Monochrome */
+  --mono-50: #FFF;
+  --mono-60: #000;
+  /*  Sucess */
+  --sucess-40: #17d14e; 
+  --sucess-50: #0f8d35; 
+  /* warning */
+  --warning-40: #edd134; 
+  --warning-50: #e0c423; 
+  /* Danger */
+  --danger-40: #ff6347; 
+  --danger-50: #e64124; 
 }
 
 
@@ -47,12 +61,12 @@ p {
   margin: 24px auto; 
   display: flex; 
 }
-.container .row .space-between {
+.container .row.space-between {
   justify-content: space-between;
 }
-.container .row .center {
+.container .row.center {
   justify-content: center;
 }
-.container .row .v-center {
+.container .row.v-center {
   align-items: center;
 }

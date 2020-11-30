@@ -1,0 +1,47 @@
+:host {
+  display: block;
+}
+
+.btn {
+  background: var(--primary-100);
+  border: none; 
+  border-radius: 50px; 
+  cursor: pointer; 
+  color: var(--mono-50);
+  height: 30px; 
+  width: 100px; 
+  outline: none; 
+  font-weight: bold; 
+}
+
+.btn.primary {
+  background: var(--primary-90);
+  color: var(--mono-50);
+}
+.btn.primary:hover {
+  background: var(--primary-60);
+}
+
+.btn.sucess {
+  background: var(--sucess-40);
+  color: var(--mono-50);
+}
+
+.btn.sucess:hover {
+  background: var(--sucess-50);
+}
+
+.btn.warning {
+  background: var(--warning-40);
+  color: var(--mono-60);
+}
+.btn.warning:hover {
+  background: var(--warning-50);
+}
+.btn.danger {
+  background: var(--danger-40);
+  color: var(--mono-50);
+}
+.btn.danger:hover {
+  background: var(--danger-50);
+}
